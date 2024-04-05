@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/styles/contact.css">
+<body>
+    <p>
+        <%- include('partials/nav') %>
+    </p>
+    <div class="container">
+        <h1>Contact Us Quickly</h1>
+        <h3>Mob No. 9103526597</h3>
+        <p><%= qs.person %></p>
+        <form action="/contact" method="POST" id="form">
+
+            <!-- remember here name serves as name as dictionary in python -->
+            <!-- never forget to use name -->
+
+            <label for="text">Enter the name:</label>
+            <input type="text" name="text" value = <%= qs.person %>>
+            <br>
+            <br>
+
+            <label for="email">Enter the email:</label>
+            <input type="email" name="email" value = <%= qs.dept %>>
+            <br>
+            <br>
+
+            <label for="password">Enter the password</label>
+            <input type="password" name="password">
+            <br>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    
+</body>
+</html>

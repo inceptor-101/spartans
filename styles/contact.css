@@ -1,0 +1,12 @@
+
+        .container{
+            text-align: center;
+            background-color: rgb(0, 229, 255);
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            font-size: xx-large;
+        }
+        #submit{
+            font-size: x-large;
+        }

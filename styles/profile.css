@@ -1,0 +1,16 @@
+.container{
+    display: flexbox;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    text-align: center;
+}
+p{  
+    justify-content: center;
+    color: white;
+    font-size: xxx-large;
+}
+span{
+    color: rgb(161, 167, 170);
+    font-size: x-large;
+}
